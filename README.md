@@ -6,6 +6,9 @@
 - [Data Set Overview](#data-set-overview)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
 - [Tools and Techniques](#tools-and-techniques)
+- [Dashboard Design](#dashboard-design)
+- [Recommendation](#recommendation)
+- [Conclusion](#conclusion)
 
 ### Project Overview
 This project aims to analyze customer behaviour and purchase history based on sales,return and payment preferences. It also analyze customer churn prediction, return rate, highest sold product category and revenue generated.The goal is to derive insight that can guide customer retention and enhance overall business perfomance.
@@ -26,7 +29,7 @@ The data set used for the analysis is the E-commerce customer data Csv file, con
 ### Exploratory Data Analysis
 The exploratory data analysis aims to explore the data set to address key questions such as:
 - Who are the top customers and how much do they contribute to revenue?
-- Which category are experiencing the mnost returned order?
+- Which category are experiencing the most returned order?
 - Which product category are driving the most revenue?
 - What age group are churning the most?
 - What does our gender distribution tell us about our customer base?
@@ -35,7 +38,7 @@ The exploratory data analysis aims to explore the data set to address key questi
 ## Tools and Techniques
 - Microsoft Excel- Data Cleaning
 - PowerBI- Data Visualization
-  #### Techiques
+  #### Techniques
 - Data Cleaning: Microsoft Excel was used to remove duplicate and handling missing data
 - The customer age was grouped using the IFS function in excel, the function state
   ### "IFS(H2<=25,"18-25",H2<=35,"26-35",H2>50,"50+")
@@ -58,6 +61,14 @@ The exploratory data analysis aims to explore the data set to address key questi
 
 # Dashboard Design
 ![Screenshot 2025-04-18 121552](https://github.com/user-attachments/assets/24295a8c-e3e2-44d8-9f2f-fa59d60826ba)
+
+# Recommendation
+1. Customer Feedback: Collect customer feedback to identify reasons leading to churn or return of orders and implement changes to improve customer satisfaction and reduce return frequency
+2. Product Optimization: Focus and invest more on promoting Home, Clothing and Electronics as they are the high performing product. Explore discount on repeat purchases to increase purchases
+3. Marketing Campaigns: Launch marketing campaigns on product to win back non active customers to reduce churn
+
+# Conclusion
+This Customer behaviour analysis reveals strong business potential. However, challenges such as high return and churn rate indicate opportunities for strategic improvement. By focusing on customer experiences and data driven decision making, business can enhance profitability.
 
 
 

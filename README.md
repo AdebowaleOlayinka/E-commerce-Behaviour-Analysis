@@ -41,7 +41,9 @@ The exploratory data analysis aims to explore the data set to address key questi
   #### Techniques
 - Data Cleaning: Microsoft Excel was used to remove duplicate and handling missing data
 - The customer age was grouped using the IFS function in excel, the function state
-  ### "IFS(H2<=25,"18-25",H2<=35,"26-35",H2>50,"50+")
+```
+"IFS(H2<=25,"18-25",H2<=35,"26-35",H2>50,"50+")
+```
   - Data Visualization: Data visualization was done using PowerBI and Dax measures were created
 
 ## Key Findings/Insights
